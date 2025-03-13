@@ -25,7 +25,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <header style={{ backgroundColor: "lightblue" }}>Header</header>
         {children}
+        <footer style={{ backgroundColor: "lightblue" }}>data</footer>
       </body>
     </html>
   );
