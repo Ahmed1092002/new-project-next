@@ -6,7 +6,7 @@ export default function Review({ params }: { params: { reviewId: number } }) {
   }
   return (
     <div>
-      <h1>Profile {params.reviewId}</h1>
+      <h1>review 1 {params.reviewId}</h1>
     </div>
   );
 }

@@ -10,9 +10,15 @@ export default function ProductDetailsLayout({
 
   return (
     <div>
-      <h2>Product details</h2>
+      <header style={{ backgroundColor: "lightblue" }}>
+        <h2>Product details</h2>
+      </header>
+
       {children}
-      <h2>Features products</h2>
+
+      <footer style={{ backgroundColor: "lightblue" }}>
+        <h2>Features products</h2>
+      </footer>
     </div>
   );
 }
