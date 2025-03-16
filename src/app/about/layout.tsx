@@ -1,12 +1,12 @@
-export default function RootLayout({
+export default function AboutLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
-      <body className={`kkkkk`}>
-        <header style={{ backgroundColor: "lightblue" }}>Header</header>
+      <body>
+        <header style={{ backgroundColor: "lightgreen" }}>Header</header>
         {children}
         {/* <footer style={{ backgroundColor: "lightblue" }}>data</footer> */}
       </body>
